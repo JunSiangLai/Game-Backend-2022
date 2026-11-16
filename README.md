@@ -1,6 +1,6 @@
 # Game Backend: Photon Server, MySQL and PlayFab
 
-Two game-backend projects from my Server Development module at Nanyang Polytechnic (2021). Together they cover a **self-hosted** backend (Photon Server plugin with MySQL) and a **cloud** backend (Microsoft PlayFab), each with a Unity client.
+Two game-backend projects from my Server Development module at Nanyang Polytechnic (2021–22). Together they cover a **self-hosted** backend (Photon Server plugin with MySQL) and a **cloud** backend (Microsoft PlayFab), each with a Unity client.
 
 | Folder | What it is |
 |---|---|
