@@ -1,0 +1,39 @@
+# ---------- Unity clients (photon-client, playfab-client) ----------
+/photon-client/[Ll]ibrary/
+/photon-client/[Tt]emp/
+/photon-client/[Oo]bj/
+/photon-client/[Bb]uild*/
+/photon-client/[Ll]ogs/
+/photon-client/[Uu]ser[Ss]ettings/
+/photon-client/*.csproj
+/photon-client/*.sln
+/playfab-client/[Ll]ibrary/
+/playfab-client/[Tt]emp/
+/playfab-client/[Oo]bj/
+/playfab-client/[Bb]uild*/
+/playfab-client/[Ll]ogs/
+/playfab-client/[Uu]ser[Ss]ettings/
+/playfab-client/*.csproj
+/playfab-client/*.sln
+*.unitypackage
+*.apk
+*.aab
+
+# ---------- .NET projects (photon-plugin, mysql-console) ----------
+# NuGet restores these; keep the .csproj / .sln files
+/photon-plugin/packages/
+/mysql-console/packages/
+**/bin/
+/photon-plugin/obj/
+/mysql-console/obj/
+
+# ---------- IDE ----------
+.vs/
+.vscode/
+*.suo
+*.user
+*.userprefs
+
+# ---------- Local secrets ----------
+*.env
+secrets.json
